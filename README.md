@@ -1,4 +1,4 @@
-Siva's Portfolio
+Siva Durshika's Portfolio
 
 Welcome to my personal portfolio website! This is a showcase of my skills, projects, and experiences as a web developer, UI/UX designer, and technology enthusiast.
 
