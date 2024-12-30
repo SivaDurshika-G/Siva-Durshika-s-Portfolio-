@@ -37,7 +37,7 @@ Technologies Used
 
  Contact
 
-Feel free to reach out to me via email at [siva@example.com](mailto:sivadurshika22@example.com) or connect with me on:
+Feel free to reach out to me via email at [sivadurshika22@example.com](mailto:sivadurshika22@example.com) or connect with me on:
 
 - [LinkedIn](https://www.linkedin.com/in/siva-durshika-g-86141030a)
 - [GitHub](https://github.com/SivaDurshika-G)
