@@ -1,67 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Siva Durshika's Portfolio</title>
+    <meta name="description" content="Siva Durshika's Portfolio - "Aspiring IT Professional | B.Tech in Information Technology | UI/UX Enthusiast | Public Speaker | Innovative Thinker | Student Leader | Passionate about Technology and Design>
+    <title>Siva's Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-    <!-- Header Section -->
     <header>
-        <div class="avatar">
-            <img src="https://avatars.dicebear.com/api/initials/Siva.svg" alt="Siva's Avatar" width="150" height="150">
-        </div>
-        <h1>Welcome to My Portfolio!</h1>
-        <p>I'm Siva Durshika,an aspiring and passionate web developer and designer.</p>
+        <h1>Welcome to My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <!-- About Me Section -->
-    <section id="about-me">
-        <h2>About Me</h2>
-        <p>I am an aspiring web developer with a passion for building responsive, accessible, and engaging web applications. I specialize in front-end development with expertise in HTML, CSS, JavaScript, and UI/UX design.</p>
+    <section id="about">
+        <h2>About Me</h2
+        <p>I'm Siva Durshika, an Aspiring Web developer passionate about creating impactful digital experiences. I specialize in front-end development and love building innovative projects that solve real-world problems.</p>
     </section>
 
-    <!-- Skills Section -->
     <section id="skills">
-        <h2>Skills</h2>
+        <h2>My Skills</h2>
         <ul>
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>JavaScript</li>
+            <li>HTML, CSS, JavaScript</li>
             <li>UI/UX Design</li>
+            <li>Git & GitHub</li>
+            <li>Problem Solving & Algorithms</li>
         </ul>
     </section>
 
-    <!-- Experience Section -->
     <section id="experience">
-        <h2>Experience</h2>
-        <p>Interned at Task Veda as a Java Full Stack Developer and Codec Technologies as a UI/UX Designer.</p>
+        <h2>Work Experience</h2>
+        <ul>
+            <li>
+                <strong>Java Full Stack Developer Intern</strong> at Task Veda (1 month)
+                <p>Worked on developing full-stack applications, integrating front-end designs functionality using Java technologies like Spring Boot and Hibernate.</p>
+            </li>
+            <li>
+                <strong>UI/UX Designer Intern</strong> at Codec Technologies(1 month)
+                <p>Designed user interfaces and experiences for web applications, conducted user research, and learned wireframes and prototypes using Figma and Adobe XD.</p>
+            </li>
+            <li>
+                <strong>Speaker</strong> at Webinar on Web Development (2024)
+                <p>Delivered a session on web development basics, including HTML, CSS, and JavaScript, aimed at helping students understand front-end development principles.</p>
+            </li>
+        </ul>
     </section>
 
-    <!-- Projects Section -->
     <section id="projects">
-        <h2>Projects</h2>
+        <h2>My Projects</h2>
         <ul>
-            <li><strong>Portfolio Website</strong> - A personal portfolio showcasing my skills and projects.</li>
-            <li><strong>Web Development Webinar</strong> - Speaker at a webinar on web development basics.</li>
+            <li><a href="#">EcoBin - Hygienic Pad Disposal System</a></li>
+            <li><a href="#">Wearable Health Monitoring System</a></li>
+            <li><a href="#">AI-Powered Braille Display</a></li>
         </ul>
     </section>
 
-    <!-- Contact Section -->
     <section id="contact">
-        <h2>Contact</h2>
-        <p>You can reach me at:</p>
-        <ul>
-            <li>Email: <a href="mailto:sivadurshika22@example.com">sivadurshika22@example.com</a></li>
-            <li>LinkedIn: <a href="https://www.linkedin.com/in/siva-durshika-g-86141030a">LinkedIn Profile</a></li>
-            <li>GitHub: <a href="https://github.com/SivaDurshika-G">GitHub Profile</a></li>
-        </ul>
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:sivadurshika22@example.com">sivadurshika22@example.com</a></p>
+        <p>Connect with me on <a href="https://www.linkedin.com/in/siva-durshika-g-86141030a" target="_blank">LinkedIn</a> or <a href="https://github.com/Siva Durshika-G" target="_blank">GitHub</a>.</p>
+        <form action="mailto:sivadurshika22@example.com" method="post" enctype="text/plain">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="message">Your Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+            <button type="submit">Send Message</button>
+        </form>
     </section>
 
-</body>
+    <footer>
+        <p>&copy; 2024 Siva Durshika. All Rights Reserved.</p>
+    </footer>
 
+    <script src="script.js"></script>
+</body>
 </html>
