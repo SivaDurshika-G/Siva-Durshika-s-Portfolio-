@@ -27,9 +27,8 @@ Technologies Used
  How to Use
 
 1. Clone the repository to your local machine:
-    ```bash
-    git clone https://github.com/<your-username>/my-portfolio.git
-    ```
+    https://github.com/SivaDurshika-G/Siva-Durshika-s-Portfolio-
+
 2. Open the `index.html` file in your browser to view the portfolio.
 
 3. You can also access the live website hosted on GitHub Pages:
